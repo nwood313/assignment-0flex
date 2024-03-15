@@ -9,7 +9,7 @@ body {
 .content,
 .footer {
     display: flex;
-    flex: 1;
+    flex-wrap: 1;
 }
 
 /* Header */
@@ -20,7 +20,7 @@ body {
 .menu-item {
     flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 70px;
 }
 
 .menu-item:nth-child(1) {
@@ -88,7 +88,7 @@ body {
 .footer-column {
     flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 70px;
 }
 
 .footer-column:nth-child(1) {
